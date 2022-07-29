@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
 
     return (
-        <div className='flex justify-between p-12 text-gray-600 bg-blue-300'>
+        <div className='flex justify-between py-6 px-12 text-gray-600 bg-blue-300'>
             <div className='text-3xl font-large'>
                 <NavLink to="/">Health Online</NavLink>
             </div>
