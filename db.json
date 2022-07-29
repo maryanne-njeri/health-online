@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "id": 1,
+      "image": "https://africahealthholdings.com/images/Global_healthcare_2.jpeg",
+      "title": "Typhoid",
+      "subTitle": "Symptoms",
+      "symptomOne": "A persistent high temperature that gradually increases each day.",
+      "symptomTwo": "General aches and pains",
+      "symptomThree": "Extreme tiredness (fatigue)",
+      "thumbsUp": "0",
+      "thumbsDown": "0"
+    },
+    {
+      "id": 2,
+      "image": "https://africahealthholdings.com/images/Global_healthcare_2.jpeg",
+      "title": "Malaria",
+      "subTitle": "Symptoms",
+      "symptomOne": "fever and flu-like illness",
+      "symptomTwo": "muscle aches",
+      "symptomThree": "headache",
+      "thumbsUp": "0",
+      "thumbsDown": "0"
+    },
+    {
+      "id": 3,
+      "image": "https://africahealthholdings.com/images/Global_healthcare_2.jpeg",
+      "title": "Cholera",
+      "subTitle": "Symptoms",
+      "symptomOne": "red and watery eyes",
+      "symptomTwo": "slightly raised temperature",
+      "symptomThree": "a runny nose",
+      "thumbsUp": "0",
+      "thumbsDown": "0"
+    }
+  ]
+}
