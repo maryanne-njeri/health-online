@@ -1,6 +1,6 @@
 function About() {
     return(
-        <div>
+        <div className="mt-28 px-12">
             <p>
                 Hello there I am about section
             </p>

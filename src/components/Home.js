@@ -3,7 +3,7 @@
 function Home() {
     return(
         <div>
-            <nav className="flex justify-between items-center w-full mt-8 p-12">
+            <nav className="flex justify-between items-center w-full mt-28 p-12">
                 <div className="w-1/2">
                     <img src="images/malaria.jpg" alt="Hero"/>
                 </div>
@@ -16,7 +16,7 @@ function Home() {
                         An estimated 95% of deaths in 2020 were in the WHO African Region.
                     </p>
                     <div className="mt-6 text-gray-700">
-                        <button className="bg-blue-300 rounded border px-4 py-2 hover:text-white hover:bg-blue-400">Read more</button>
+                        <a href="/conditions" className="bg-blue-300 rounded border px-4 py-2 hover:text-white hover:bg-blue-400">Read more</a>
                     </div>
                 </div>
             </nav>

@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import MiniComponent from './MiniComponent';
+import PostForm from './PostForm';
 
 function Conditions() {
     const [conditions, setCondition] = useState([ ]);
-    // const [thumbsUp, setThumbsUp] = useState(" ");
-    // const [thumbsDown, setThumbsDown] = useState(" ");
 
     useEffect( () => {
         fetch("https://rose-json-server.herokuapp.com/conditions")
@@ -30,8 +29,13 @@ function Conditions() {
 
 
     return (
-        <div className='flex justify-between gap-6 mx-12'>  
-            {allCondition}
+        <div>  
+            <div className=''>
+                <PostForm setCondition={setCondition}/>
+            </div>
+            <div className='flex justify-between gap-6 mx-12'>
+                {allCondition}
+            </div>
         </div>
     )
 }

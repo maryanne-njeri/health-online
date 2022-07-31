@@ -8,7 +8,7 @@ import Navbar from "././Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-smooth">
       <Navbar/>
       <Switch>
         <Route exact path="/">
