@@ -40,11 +40,11 @@ function PostForm({setCondition}) {
 
 
     return (
-        <div className='flex items-center justify-between w-full max-w-7xl px-4 mt-28 mx-auto'>
-            <div className='w-3/5'>
+        <div className='flex items-center justify-between w-full max-w-7xl px-4 mt-24 lg:mt-28 mx-auto'>
+            <div className='w-full lg:w-3/5'>
                 <h2 className='mb-2 text-xl font-light max-w-lg'>Fill in the form to add Condition and the underlying symptoms.</h2>
                 <form onSubmit={handleSubmit}>
-                    <div className='max-w-sm'>
+                    <div className='max-w-full lg:max-w-sm'>
                         <div className='mb-4'>
                             <label for='title' className='text-gray-500 font-light text-sm'>Condition Name</label>
                             <input id='title' value={change.title} name="title" type='text' onChange={handleChange} className='w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow'/>
@@ -67,7 +67,7 @@ function PostForm({setCondition}) {
                     </div>
                 </form>
             </div>
-            <div className='w-2/5'>
+            <div className='hidden lg:block lg:w-2/5'>
                 <div className=''>
                     <img src='images/submit.gif' alt='form' className='w-full'/>
                 </div>

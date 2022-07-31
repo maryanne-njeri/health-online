@@ -33,7 +33,7 @@ function Conditions() {
             <div className=''>
                 <PostForm setCondition={setCondition}/>
             </div>
-            <div className='flex justify-between gap-6 mx-12'>
+            <div className='block lg:flex justify-between lg:space-x-6 w-full px-4 lg:px-12'>
                 {allCondition}
             </div>
         </div>

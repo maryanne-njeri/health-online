@@ -23,7 +23,7 @@ function MiniComponent({image, subTitle, title, symptomOne, symptomTwo, symptomT
                     <div className=''>
                         <img src={image} alt="Hero" className='rounded'/>
                     </div>
-                    <div className='space-y-2 p-4 h-60'>
+                    <div className='space-y-2 p-4 h-auto'>
                         <h1 className='text-xl text-gray-800'>{title}</h1>
                         <h3 className='text-gray-700'>{subTitle}</h3>
                         <ul className='text-gray-600 text-sm'>
