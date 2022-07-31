@@ -1,10 +1,10 @@
 function About() {
     return(
-        <div className="mt-28 px-12">
+        <div className="flex items-center h-screen px-12">
             <div className="w-full flex items-center justify-between">
                 <div className='w-1/2 space-y-4'>
                     <h2 className='text-5xl text-gray-500'>About Health Online</h2>
-                    <div>
+                    <div className='text-stone-700'>
                         <p>
                         If you or your family member are at high risk for severe illness, wear a mask or respirator with greater protection in public indoor spaces if you are in an area with a high COVID-19 Community Level. Talk with your healthcare provider about wearing a mask in a medium
                         </p>
