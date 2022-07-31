@@ -3,9 +3,9 @@
 function Home() {
     return(
         <div>
-            <nav className="lg:flex justify-between items-center w-full mt-12 lg:mt-28 px-4 lg:px-12 py-12 lg:py-12">
+            <nav className="lg:flex justify-between items-center w-full mt-12 lg:mt-28 px-4 lg:px-12 py-12 lg:py-12 lg:space-x-6">
                 <div className="flex justify-center mb-8 lg:mb-0 lg:block w-full lg:w-1/2">
-                    <img src="images/malaria.jpg" alt="Hero"/>
+                    <img src="images/goodhealth.gif" alt="Hero"/>
                 </div>
                 <div className="w-full lg:w-1/2 text-gray-700">
                     <h2 className="text-2xl lg:text-4xl">Malaria statistics</h2>

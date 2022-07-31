@@ -11,7 +11,7 @@ function About() {
                     </div>
                 </div>
                 <div className='hidden lg:block w-1/2'>
-                    <img src="images/healthcare.jpeg" alt="about us" />
+                    <img src="images/health.gif" alt="about us" />
                 </div>
             </div>
         </div>
